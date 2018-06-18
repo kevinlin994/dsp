@@ -46,13 +46,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > >
-ls : lists files in current working directory
-ls -a : lists all contents of a directory, including hidden files and directories
-ls -l : lists all contents in long format
-ls -lh: lists all contents in long format and displays file sizes using more human-friendly units
-ls -lah: lists all contents in long format, displays file sizes uing more human-friendly units, and lists hidden files
-ls -t : sorts entries by time. By default, this option sorts the output by the modification times of files.
-ls -Glp : lists all content in long format, highlights different file types with different colors, and adds '/' after directory names
+ *ls : lists files in current working directory
+*ls -a : lists all contents of a directory, including hidden files and directories
+*ls -l : lists all contents in long format
+*ls -lh: lists all contents in long format and displays file sizes using more human-friendly units
+*ls -lah: lists all contents in long format, displays file sizes uing more human-friendly units, and lists hidden files
+*ls -t : sorts entries by time. By default, this option sorts the output by the modification times of files.
+*ls -Glp : lists all content in long format, highlights different file types with different colors, and adds '/' after     directory names
 ---
 
 ### Q3.  More List Files in Unix  
