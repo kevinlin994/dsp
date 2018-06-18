@@ -20,14 +20,24 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* show current working directory path          : pwd
+* creating a directory                         : mkdir
+* deleting a directory                         : rm -r "directory name"
+* creating a file using `touch` command        : touch "file name"
+* deleting a file                              : rm "file name"
+* renaming a file                              : mv file.txt newfilename.txt
+* listing hidden files                         : ls -a
+* copying a file from one directory to another : cp biopic/cleopatra.txt historical/
+* navigating to a directory                    : cd "directory name"
+* select all files in a satire directory       : cp * satire/
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls` 
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -35,8 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> >
+ls : lists files in current working directory
+ls -a : lists all contents of a directory, including hidden files and directories
+ls -l : lists all contents in long format
+ls -lh: lists all contents in long format and displays file sizes using more human-friendly units
+ls -lah: lists all contents in long format, displays file sizes uing more human-friendly units, and lists hidden files
+ls -t : sorts entries by time. By default, this option sorts the output by the modification times of files.
+ls -Glp : lists all content in long format, highlights different file types with different colors, and adds '/' after directory names
 ---
 
 ### Q3.  More List Files in Unix  
