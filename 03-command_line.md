@@ -72,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs is a command line utility for building an execution pipeline from standard input. A common usage of xargs is with the find command. "find /tmp -mtime +14 | xargs rm" the left side of this command finds files older than 2 weeks which is piped to the xargs command whichc then removes each file.
+> > xargs is a command line utility for building an execution pipeline from standard input. A common usage of xargs is with the find command. "find /tmp -mtime +14 | xargs rm" the left side of this command finds files older than 2 weeks which is piped to the xargs command which then removes each file.
 
  
 
