@@ -17,3 +17,5 @@ thinkplot.Cdf(cdf, label = 'CDF of 1000 Random Numbers')
 thinkplot.Config(xlabel = "Random Numbers", ylabel = 'CDF')
 ```
 ![image](https://github.com/kevinlin994/dsp/blob/master/statistics/chp4ex02-2.png)
+
+This distribution is uniform.
