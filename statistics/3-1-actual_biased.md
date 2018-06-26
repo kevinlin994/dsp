@@ -11,3 +11,4 @@ pmf = thinkstats2.Pmf(df)
 thinkplot.Hist(pmf, label = 'actual')
 thinkplot.Config(xlabel = 'Kids per Household', ylabel = 'Pmf')
 ```
+![image](https://github.com/kevinlin994/dsp/blob/master/statistics/ch3e1.png)
