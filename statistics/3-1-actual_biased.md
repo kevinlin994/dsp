@@ -13,12 +13,12 @@ thinkplot.Config(xlabel = 'Kids per Household', ylabel = 'Pmf')
 ```
 ![image](https://github.com/kevinlin994/dsp/blob/master/statistics/ch3e1.png)
 
-```
+```python
 observed = BiasPmf(pmf, 'observed')
 thinkplot.Hist(observed, label = 'observed')
 thinkplot.Config(xlabel = 'Kids per Household', ylabel = 'Pmf')
 ```
-```
+```python
 thinkplot.Pmfs([pmf, observed])
 thinkplot.Config(xlabel='Kids per Household', ylabel='PMF')
 print('actual mean = ' + str(pmf.Mean()), 'observed mean = ' + str(observed.Mean()))
